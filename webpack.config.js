@@ -5,7 +5,8 @@ module.exports = {
   entry: ["@babel/polyfill", "./src/js/index.js"],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "js/bundle.js"
+    filename: "js/bundle.js",
+    publicPath: '/'
   },
   devServer: {
     contentBase: "./dist"
@@ -14,7 +15,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "./src/index.html"
-    })
+    }),
+    new CopyWebpackPlugin([{
+      from: './src/img',
+      to: 'img'
+    }]),
   ],
   module: {
     rules: [

@@ -6,7 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nexaas</title>
   </head>
-
   <body>
+    <header class="header">
+      <h1 class="logo-container">
+        <img src="" alt="Logo Nexaas" title="Logo Nexaas" />
+      </h1>
+      <section class="header-menu">
+        <input type="search" name="search" placeholder="Busque por clientes" class="search" />
+        <!-- ícone sino -->
+        <!-- user pic + arrow down -->
+      </section>
+    </header>
+    <div class="container">
+      <aside class="aside">
+        <ul class="menu">
+          <li class="menu__item menu__item--active">Painel</li>
+          <li class="menu__item">Configurações</li>
+        </ul>
+        <footer class="footer">
+          <p>Suporte</p>
+        </footer>
+      </aside>
+      <main class="main">
+        <section class="summary">
+          <h2 class="section-title">Visão Geral</h2>
+          <div class="row row--cards">
+            <section class="card">
+              <span>Total de Clientes</span>
+              <span class="card__number">7</span>
+            </section>
+            <section class="card">
+              <span>Clientes Inadimplentes</span>
+              <span class="card__number">4</span>
+            </section>
+            <section class="card">
+              <span>Clientes Adimplentes</span>
+              <span class="card__number">3</span>
+            </section>
+            <section class="card">
+              <span>Total Arrecadado</span>
+              <span class="card__number">R$ 2.856,93</span>
+            </section>
+          </div>
+        </section>
+
+        <section class="clients">
+          <h2 class="section-title">Clientes Cadastrados</h2>
+          <div>
+            <section class="row row--client">
+              <img 
+                height="48" 
+                width="48"
+                src="./img/avatar-admin.png" 
+                alt="Márcio Braga" 
+                title="Márcio Braga" 
+              />
+              <span>Márcio Braga</span>
+              <span>marcio.braga@minhaempresa.com.br</span>
+              <span>(21) 98987-7650</span>
+              <span>Adimplente</span>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
