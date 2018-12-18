@@ -69,11 +69,15 @@ body{
 	display: flex;
   align-items: center;
 	height: 68px;
-	border-left: 4px solid #26cdfa;
-	padding-left: 27px; /*after applying icon, icon should have a 20px padding-right*/
+	border-left: 4px solid transparent;
+	padding-left: 27px; 
+}
+.menu__item__icon{
+	padding-right: 20px;
 }
 .menu__item--active{
 	background: #f4f9ff;
+	border-color: #26cdfa;
 }
 .footer{
 	height: 65px;
