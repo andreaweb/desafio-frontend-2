@@ -23,6 +23,11 @@ body{
 .logo-container{
 	border-right: 1px solid #b6c3c9;
 	flex-basis: 19%;
+	margin: 0;
+}
+.logo{
+	display: block;
+  margin: 32px auto 0;
 }
 .search{
 	flex-basis: 68%;
@@ -31,7 +36,21 @@ body{
 	outline: none;
 	border: 1px solid #d2d2d2;
 }
-
+.images-container{
+	margin-left: auto;
+	display: flex;
+  align-items: center;
+}
+.bell{
+	height: 34px;
+	margin-right: 5vw;
+}
+.user{
+	height: 53px;
+}
+.arrow{
+	height: 8px;
+}
 /*aside*/
 .aside{
 	flex-basis: 19%;
@@ -68,6 +87,8 @@ body{
 	padding: 33px 17px;
 	flex-basis: 81%;
 	background: #f5f5f5;
+  height: calc(100vh - 100px);
+  overflow-x: auto;
 }
 .summary{
 	margin-bottom: 50px;
