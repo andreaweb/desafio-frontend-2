@@ -1,0 +1,52 @@
+/*header*/
+.header{
+	height: 100px;
+	display: flex;
+	border-bottom: 1px solid #b6c3c9;
+}
+.header-menu{
+	display: flex;
+	padding: 20px 27px;
+	flex-basis: 80%;
+	box-sizing: border-box;
+}
+.logo-container{
+	border-right: 1px solid #b6c3c9;
+	flex-basis: 19%;
+	margin: 0;
+}
+.logo{
+	display: block;
+  margin: 32px auto 0;
+}
+.search{
+	flex-basis: 68%;
+	border-radius: 60px;
+	padding: 0 55px;
+	outline: none;
+	border: 1px solid #d2d2d2;
+	margin-left: -16px;
+}
+.search-icon{
+	height: 19px;
+	width: 19px;
+	position: relative;
+	top: 20px;
+	left: 26px;
+}
+.images-container{
+	margin-left: auto;
+	display: flex;
+  align-items: center;
+}
+.bell{
+	height: 34px;
+	margin-right: 5vw;
+}
+.user{
+	height: 53px;
+	margin-right: 10px;
+}
+.arrow{
+	height: 8px;
+}

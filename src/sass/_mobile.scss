@@ -1,0 +1,37 @@
+@media screen and (max-width: 900px){
+	.container{
+		display: block;
+	}
+	.footer{
+		position:fixed;
+		right: 0;
+		bottom: 0;
+		background: #fff;
+    padding: 5px 15px;
+    height: auto;
+	}
+	.row,
+	.header-menu,
+	.header{
+		flex-direction: column;
+	}
+	.header{
+		height: auto;
+	}
+	.images-container{
+		margin-left: 0;
+	}
+	.user{
+		margin-left: auto;
+	}
+	.search{
+		margin-left: 0;
+    height: 80px;
+	}
+	.search-icon{
+		top: 50px;
+	}
+	.grid--client{
+		grid-template-columns: auto;
+	}
+}
