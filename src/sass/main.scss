@@ -36,6 +36,14 @@ body{
 	padding-left: 5%;
 	outline: none;
 	border: 1px solid #d2d2d2;
+	margin-left: -16px;
+}
+.search-icon{
+	height: 19px;
+	width: 19px;
+	position: relative;
+	top: 20px;
+	left: 26px;
 }
 .images-container{
 	margin-left: auto;
@@ -48,6 +56,7 @@ body{
 }
 .user{
 	height: 53px;
+	margin-right: 10px;
 }
 .arrow{
 	height: 8px;
@@ -130,7 +139,7 @@ body{
 	margin-bottom: 12px;
 	display: grid;
 	align-items: center;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
 }
 /*utilities*/
 .round{
@@ -154,5 +163,8 @@ body{
 	}
 	.row{
 		flex-direction: column;
+	}
+	.grid--client{
+		grid-template-columns: auto;
 	}
 }
