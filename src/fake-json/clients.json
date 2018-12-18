@@ -1,0 +1,47 @@
+{
+	"clientes":
+	[
+		{
+			"nome": "Maria Fernanda",
+			"email": "maria.fernanda@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": true,
+			"avatar": "https://source.unsplash.com/csKAiMU1OrU/48x48"
+		},
+		{
+			"nome": "Nathalia Amaral",
+			"email": "nathalia.amaral@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": true,
+			"avatar": "https://source.unsplash.com/GDhrGQcRQQc/48x48"
+		},
+		{
+			"nome": "Eduardo Lopes",
+			"email": "eduardo.lopes@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": true,
+			"avatar": "https://source.unsplash.com/cibBnDQ9hcQ/48x48"
+		},
+		{
+			"nome": "Felipe Cardoso",
+			"email": "felipe.cardoso@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": true,
+			"avatar": "https://source.unsplash.com/TMpQ5R9mbOc/48x48"
+		},
+		{
+			"nome": "Maria Silva",
+			"email": "maria.silva@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": false,
+			"avatar": "https://source.unsplash.com/BDmgYACd_o4/48x48"
+		},
+		{
+			"nome": "Márcio Braga",
+			"email": "marcio.braga@minhaempresa.com.br",
+			"tel": "(21) 98987-7650",
+			"adimplente": true,
+			"avatar": "./img/avatar-admin.png"
+		}
+	]
+}
